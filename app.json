@@ -1,0 +1,44 @@
+{
+    "name": "Xray",
+    "description": "xray websocket proxy",
+    "keywords": [
+        "xray vmess vless trojan shadowsocks socks tor"
+    ],
+    "env": {
+        "AA": {
+            "description": "custom your own favor if you want",
+            "value": "don't mind this one"
+        },
+        "AUUID": {
+            "description": "UUID for connection",
+            "value": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+        },
+        "CADDYIndexPage": {
+            "description": "caddy site,see：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
+            "value": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "caddy configuration file",
+            "value": "https://raw.githubusercontent.com/zswdcx/forks/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "xray configuration file",
+            "value": "https://raw.githubusercontent.com/zswdcx/forks/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "cipher suite for SS, see: https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "aes-256-gcm"
+        },
+        "StoreFiles": {
+            "description": "custom files to storage",
+            "value": "https://raw.githubusercontent.com/zswdcx/forks/master/etc/StoreFiles"
+        },
+        "TOREnable": {
+            "description": "enable tor netowrk on the server",
+            "value": "false"
+        }
+    },
+    "website": "https://github.com/zswdcx/forks",
+    "repository": "https://github.com/zswdcx/forks",
+    "stack": "container"
+}
